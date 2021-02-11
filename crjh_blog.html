@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CRJH Blog</title>
+        <meta name="veiwport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="crjh_blog.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">       
+    </head>
+    <body>
+        <div class="modal modal_1" style="display: none;">
+            <div class="modal_content">
+                <div class="modal_header">
+                    <h2>Mona Salinas</h2>
+                    <span class="modal_close_button" onclick="this.parentElement.parentElement.parentElement.style.display='none';">&times;</span>
+                </div>
+                <div class="modal_body">
+                    <img src="images/crjh_logo.png" alt="CRJH Logo" width="75" height="75">
+                </div>
+                <div class="modal_footer"><p>Mona Salinas is the <strong>CRJH</strong> principal.</p></div>
+            </div>
+        </div>
+        <div class="modal modal_2" style="display: none;">
+            <div class="modal_content">
+                <div class="modal_header">
+                    <h2>Dustin Schmeits</h2>
+                    <span class="modal_close_button" onclick="this.parentElement.parentElement.parentElement.style.display='none';">&times;</span>
+                </div>
+                <div class="modal_body">
+                    <img src="images/crjh_logo.png" alt="CRJH Logo" width="75" height="75">
+                </div>
+                <div class="modal_footer"><p>Dustin Schmeits is the <strong>CRJH</strong> 6th grade assistant principal.</p></div>
+            </div>
+        </div>
+        <div class="modal modal_3" style="display: none;">
+            <div class="modal_content">
+                <div class="modal_header">
+                    <h2>Angelica Knight</h2>
+                    <span class="modal_close_button" onclick="this.parentElement.parentElement.parentElement.style.display='none';">&times;</span>
+                </div>
+                <div class="modal_body">
+                    <img src="images/crjh_logo.png" alt="CRJH Logo" width="75" height="75">
+                </div>
+                <div class="modal_footer"><p>Angelica Knight is the <strong>CRJH</strong> 7th grade assistant principal.</p></div>
+            </div>
+        </div>
+        <div class="modal modal_4" style="display: none;">
+            <div class="modal_content">
+                <div class="modal_header">
+                    <h2>Jenny Legler</h2>
+                    <span class="modal_close_button" onclick="this.parentElement.parentElement.parentElement.style.display='none';">&times;</span>
+                </div>
+                <div class="modal_body">
+                    <img src="images/crjh_logo.png" alt="CRJH Logo" width="75" height="75">
+                </div>
+                <div class="modal_footer"><p>Jenny Legler is the <strong>CRJH</strong> 8th grade assistant principal.</p></div>
+            </div>
+        </div>
+        <div class="modal modal_5" style="display: none;">
+            <div class="modal_content">
+                <div class="modal_header">
+                    <h2>Brittany Vega Thomas</h2>
+                    <span class="modal_close_button" onclick="this.parentElement.parentElement.parentElement.style.display='none';">&times;</span>
+                </div>
+                <div class="modal_body">
+                    <img src="images/crjh_logo.png" alt="CRJH Logo" width="75" height="75">
+                </div>
+                <div class="modal_footer"><p>Brittany Vega Thomas is the main <strong>CRJH ASIP</strong> teacher.</p></div>
+            </div>
+        </div>
+        <div class="topnav" id="menu_bar">
+            <a href="#welcome" class="active" onclick="document.querySelector('.active').removeAttribute('class'); this.className='active';">Welcome</a>
+            <a href="#contact" onclick="document.querySelector('.active').removeAttribute('class'); this.className='active';">Contact</a>
+            <a href="#location" onclick="document.querySelector('.active').removeAttribute('class'); this.className='active';">Location</a>
+            <a href="#about" onclick="document.querySelector('.active').removeAttribute('class'); this.className='active';">About</a>
+            <a href="#achievements" onclick="document.querySelector('.active').removeAttribute('class'); this.className='active';">Achievements</a>
+            <a href="#school_life" onclick="document.querySelector('.active').removeAttribute('class'); this.className='active';">School Life</a>
+            <a href="#news" onclick="document.querySelector('.active').removeAttribute('class'); this.className='active';">News</a>
+            <a href="#schedules" onclick="document.querySelector('.active').removeAttribute('class'); this.className='active';">Schedules</a>
+            <a href="#common_terms" onclick="document.querySelector('.active').removeAttribute('class'); this.className='active';">Common Terms</a>
+            <a href="#staff" onclick="document.querySelector('.active').removeAttribute('class'); this.className='active';">Staff</a>
+            <a href="#crjh_app" onclick="document.querySelector('.active').removeAttribute('class'); this.className='active';">CRJH App</a>
+            <a href="#crjhbot" onclick="document.querySelector('.active').removeAttribute('class'); this.className='active';">CRJHBot</a>
+            <a href="#policy" onclick="document.querySelector('.active').removeAttribute('class'); this.className='active';">Policy</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenuBar();">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <section id="welcome">
+            <img src="images/crjh_logo.png" alt="CRJH Logo" width="225" height="225">
+            <h1>Welcome to the <strong>CRJH</strong> Blog!</h1>
+            <p>Hi! I am Will N. Okoye, a student at <strong>CRJH</strong>! Let me welcome you to their blog which I made myself!</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Here is the school's contact email:</p>
+            <a href="mailto:monasalinas@katyisd.org"><i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>monasalinas@katyisd.org</h3></a>
+            <p>Here is the school's phone number:</p>
+            <h3>281-237-7300</h3>
+            <p>Please note that the link will only work if you have a default mail client on your device!</p>
+        </section>
+        <section id="location">
+            <h2>Location</h2>
+            <p>Here is the school's location:</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3464.192921477534!2d-95.7817863855646!3d29.743129339699895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1609343502980!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <p>23440 Cinco Ranch Blvd, Katy, TX 77494</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>Here are some fun facts about <strong>CRJH</strong>:</p>
+            <ul>
+                <li>The school has an <strong>ASIP</strong> program where Special Needs students can go to the <strong>ASIP</strong> room and calm down when they feel upset during class.</li>
+                <li><strong>OKE</strong>, <strong>GME</strong>, and<strong> Rylander</strong>  all partially feed into <strong>CRJH</strong>.</li>
+                <li>Unlike <strong>OKE</strong>, <strong>CRJH</strong> has a mix of male and female teachers.</li>
+            </ul>
+        </section>
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <p>Here are the school's achievements:</p>
+            <button type="button" class="collapsible">Art</button>
+            <div class="collapsible_content">
+                <h3>Art</h3>
+                <img src="images/painting.jpg" alt="Painting">
+                <div class="achievements">
+                    <ul>
+                        <li>The school was the runner-up for the <strong>KISD Livestock Show</strong> and got the <strong>Gold Seal Award</strong>.</li>
+                        <li>The school was the 2012 JH Finalist for <strong>HLSR</strong>.</li>
+                    </ul>
+                </div>
+                <p>The above image was taken from <cite>https://unsplash.com/wallpapers/art</cite>.</p>
+            </div>
+            <button type="button" class="collapsible">Band</button>
+            <div class="collapsible_content">
+                <h3>Band</h3>
+                <img src="images/drum_pad.jpg" alt="Drum Pad">
+                <div class="achievements">
+                    <ul>
+                        <li>The school is a three-time <strong>Texas Music Educators' Association State Honor Band</strong> finalist.</li>
+                        <li>The school was twice named a top five <strong>TMEA</strong> Honor band finalist.</li>
+                        <li>The school was for 7 years in a row named first at the <storng>TMEA</storng> Region.</li>
+                        <li>The school was named <strong>UIL Sweepstakes</strong> for nine consecutive years.</li>
+                    </ul>
+                </div>
+                <p>The above image was taken from <cite>https://www.alesis.com/products/view/e-practice-pad</cite>.</p>
+            </div>
+            <button type="button" class="collapsible">Choir</button>
+            <div class="collapsible_content">
+                <h3>Choir</h3>
+                <img src="images/choir.jpeg" alt="Choir">
+                <div class="achievements">
+                    <ul>
+                        <li><strong>UIL Sweepstakes</strong>, <strong>Best in Class</strong></li>
+                        <li>The school was the <strong>Alamo Showcase Competition Superior</strong>, <strong>Best in Class</strong> and <strong>Best Overall Choir</strong> for all 6 Choirs in 2010.</li>
+                        <li>The school was named <strong>Katy Sixth Grade Festival Superior Ratings</strong> for all 3 choirs in 2010.</li>
+                        <li>The school was named <strong>Katy Sixth Grade Festival Best in Class Tenor and Mixed</strong> in 2010.</li>
+
+                    </ul>
+                </div>
+                <p>The above image was taken from <cite>https%3A%2F%2Fwww.lawrence.edu%2Fconservatory%2Fareas_of_study%2Fchoir%2Fconcert_choir&psig=AOvVaw1t3CMMyA9nbtFm2Mj_zBqT&ust=1609444449319000&source=images&cd=vfe&ved=0CAMQjB1qFwoTCKjzzve99u0CFQAAAAAdAAAAABAO</cite>.</p>
+            </div>
+            <button type="button" class="collapsible">Orchestra</button>
+            <div class="collapsible_content">
+                <h3>Orchestra</h3>
+                <img src="images/orchestra.jpg" alt="Orchestra">
+                <div class="achievements">
+                    <ul>
+                        <li><strong>UIL Sweepstakes, Best in Class</strong></li>
+                        <li>The school was named the <strong>Texas Music Educators Association 2010 Honor Full Orchestra</strong>.</li>
+                        <li>In 2010, Katy ISD was named one of the <strong>Best Communities for Music Education</strong> by the <strong>NAMM</strong> Foundation.</li>
+                    </ul>
+                </div>
+                <p>The above image was taken from <cite>https://en.wikipedia.org/wiki/Orchestra</cite>.</p>
+            </div>
+            <button type="button" class="collapsible">Other</button>
+            <div class="collapsible_content">
+                <ul>
+                    <li>The school was named to Texas Monthly's <strong>Best Public Schools</strong> list in 2006.</li>
+                    <li>In the <strong>Regional Scholastic Writing Contest</strong>, 2 silver keys and 1 gold key where given to the school at the regional level. One Silver Key at the national level was given to the school in new York.</li>
+                    <li>Since the school opened in 2001, <strong>CRJH</strong> girls and boys athletics have won over 75 district championships in tennis, football, volleyball, basketball, and track.</li>
+                    <li>The school was 3rd place in the 2012 <strong>Destination Imagination District Competition</strong>.</li>
+                    <li>The school was third at <strong>Science Olympiad</strong> regionals, 9th at the state competition in 2012, and 3rd at state in 2013.</li>
+                    <li>The school was recognized twice in <strong>Taylor Publishing's</strong> yearbook , and won even more awards at yearbook camp.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="school_life">
+            <h2>School Life</h2>
+            <p>Here are names of main areas of the school and their descriptions:</p>
+            <div class="crjh_area_containers">
+                <div class="crjh_area_container">
+                    <h3>LGI</h3>
+                    <hr class="gray_rounded_hr">
+                    <p>The <strong>LGI(Large Group Instruction)</strong> is where a large group of students is instructed at once.</p>
+                    <p><strong>Fun Fact:</strong> Will N. Okoye went to the <strong>LGI</strong> once for <strong>CRJH KVA FYB</strong> Picture Day.</p>
+                </div>
+                <div class="crjh_area_container">
+                    <h3>Band Hall</h3>
+                    <hr class="gray_rounded_hr">
+                    <p>The <strong>Band Hall</strong> is where all the <strong>CRJH</strong> band students learn and practice.</p>
+                    <p><strong>Fun Fact:</strong> During COVID-19, WilL N. Okoye went to the <strong>Band Hall</strong> for <strong>CRJH FVB Academy</strong>.</p>
+                </div>
+                <div class="crjh_area_container">
+                    <h3>Gym</h3>
+                    <hr class="gray_rounded_hr">
+                    <p>The <strong>Gym</strong> is where all the <strong>CRJH</strong> students take PE class.</p>
+                    <p><strong>Fun Fact:</strong> During COVID-19, WilL N. Okoye went to the <strong>Gym</strong> for his <strong>Band</strong> concert.</p>
+                </div>
+            </div>
+        </section>
+        <section id="news">
+            <h2>News</h2>
+            <p>Here is some new CRJH news:</p>
+            <div class="crjh_news_containers">
+                <div class="crjh_news_container">
+                    <h3>Attendance</h3>
+                    <img src="images/checklist.png" alt="Checklist" width="100" height="100">
+                    <hr class="black_solid_hr">
+                    <p>Getting on every <strong>Zoom</strong> class with camera on is now mandatory for all <strong>Katy ISD KVA</strong> students - which includes <strong>CRJH KVA</strong> students - or else they will be kicked out of school and receive a letter of truancy.</p>
+                </div>
+                <div class="crjh_news_container">
+                    <h3>Flash</h3>
+                    <img src="images/adobe_flash_logo.png" alt="Adobe Flash Logo" width="148" height="85.5">
+                    <hr class="black_solid_hr">
+                    <p><strong>Flash's</strong> <strong>EOL(End of Life)</strong> date is Dec. 31, 2020. On <strong>New Year's Day</strong>, no more <strong>Flash</strong> games - including educational ones - can be played anymore because <storng>Adobe</storng> no longer supports <strong>Flash</strong> and says everyone should remove it from their devices.</p>
+                </div>
+            </div>
+        </section>
+        <section id="schedules">
+            <h2>Schedule</h2>
+            <p>Here are the <strong>CRJH</strong> schedules:</p>
+            <div class="schedule_container">
+                <table>
+                    <caption>CRJH A Lunch Schedule</caption>
+                    <thead>
+                        <tr>
+                            <th>Period</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>8:55 AM-9:45 AM</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>9:50 AM-10:35 AM</td>
+                        </tr>
+                        <tr>
+                            <td>Lunch</td>
+                            <td>10:35 AM-11:05 AM</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>11:10 AM-11:55 AM</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>12:00 PM-12:45 PM</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>12:50 PM-1:35 PM</td>
+                        </tr>
+                        <tr>
+                            <td>6 (Advisory)</td>
+                            <td>1:40 PM-2:20 PM</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>2:25 PM-3:10 PM</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>3:15 PM-4:05 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <caption>CRJH B Lunch Schedule</caption>
+                    <thead>
+                        <tr>
+                            <th>Period</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>8:55 AM-9:45 AM</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>9:50 AM-10:35 AM</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>10:40 AM-11:25 AM</td>
+                        </tr>
+                        <tr>
+                            <td>Lunch</td>
+                            <td>11:25 AM-11:55 AM</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>12:00 PM-12:45 PM</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>12:50 PM-1:35 PM</td>
+                        </tr>
+                        <tr>
+                            <td>6 (Advisory)</td>
+                            <td>1:40 PM-2:20 PM</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>2:25 PM-3:10 PM</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>3:15 PM-4:05 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="schedule_container">
+                <table>
+                    <caption>CRJH C Lunch Schedule</caption>
+                    <thead>
+                        <tr>
+                            <th>Period</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>8:55 AM-9:45 AM</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>9:50 AM-10:35 AM</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>10:40 AM-11:25 AM</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>11:30 AM-12:15 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Lunch</td>
+                            <td>12:15 PM-12:45 PM</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>12:50 PM-1:35 PM</td>
+                        </tr>
+                        <tr>
+                            <td>6 (Advisory)</td>
+                            <td>1:40 PM-2:20 PM</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>2:25 PM-3:10 PM</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>3:15 PM-4:05 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <caption>CRJH D Lunch Schedule</caption>
+                    <thead>
+                        <tr>
+                            <th>Period</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>8:55 AM-9:45 AM</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>9:50 AM-10:35 AM</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>10:40 AM-11:25 AM</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>11:30 AM-12:15 PM</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>12:20 PM-1:05 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Lunch</td>
+                            <td>1:05 PM-1:35 PM</td>
+                        </tr>
+                        <tr>
+                            <td>6 (Advisory)</td>
+                            <td>1:40 PM-2:20 PM</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>2:25 PM-3:10 PM</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>3:15 PM-4:05 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="common_terms">
+            <h2>Common Terms</h2>
+            <p>Here are common terms that students should know and their definitions:</p>
+            <dl>
+                <dt>Copyright</dt>
+                <dd>The protection of work agianst plagiarism that allow only the authors to distribute copies of their work unless they give permission to someone else.</dd>
+                <dt>Plagiarism</dt>
+                <dd>The act of taking one's work and claiming it as your own <strong> without giving credit, regardless of if it was paraphrased or not</strong>.</dd>
+                <dt>Credit</dt>
+                <dd>A reference to one's work.</dd>
+                <dt>Paraphrasing</dt>
+                <dd>The act of rewording text <strong>without changing its central idea</strong>.</dd>
+                <dt>Cheating</dt>
+                <dd>To gain an unfair atvantage over another in a game, bet, or in learning.</dd>
+                <dt>Bullying</dt>
+                <dd>An <strong>intentional, repeated, and one-sided act of harm</strong> from <strong>one same person to another same person that hurts the target's feelings</strong>.</dd>
+            </dl>
+        </section>
+        <section id="staff">
+            <h2>Staff</h2>
+            <p>Here are some buttons with names of staff (Click on them to open a modal and learn more about them!):</p>
+            <input type="button" value="Mona Salinas" data-target-modal-selector=".modal_1" onclick="openModal(this);">
+            <input type="button" value="Dustin Schmeits" data-target-modal-selector=".modal_2" onclick="openModal(this);">
+            <input type="button" value="Angelica Knight" data-target-modal-selector=".modal_3" onclick="openModal(this);">
+            <input type="button" value="Jenny Legler" data-target-modal-selector=".modal_4" onclick="openModal(this);">
+            <input type="button" value="Brittany Vega Thomas" data-target-modal-selector=".modal_5" onclick="openModal(this);">
+        </section>
+        <section id="crjh_app">
+            <h2>CRJH App</h2>
+            <p>Click on the image to open the CRJH app!</p>
+            <div class="work_container">
+                <h3>CRJH App</h3>
+                <a class="work" href="https://x.thunkable.com/web-build/index.html?projectId=5ff0a78794315100129e93a9&noframe=1&responsive=1"><img src="images/crjh_logo.png" width="100" height="100" alt="CRJH Logo"></a>
+            </div>
+        </section>
+        <section id="crjhbot">
+            <h2>CRJHBot</h2>
+            <p>Here is the CRJH chatbot:</p>
+            <iframe allow="microphone;" width="350" height="430" 
+            src="https://console.dialogflow.com/api-client/demo/embedded/c1c8a6d3-5c51-4566-b49e-2f0696d88a91"></iframe>
+        </section>
+        <section id="policy">
+            <h2>Policy</h2>
+            <p>Here is the CRJH policy:</p>
+            <blockquote cite="https://www.katyisd.org/campus/crjh/pages/default.aspx">It is the policy of Katy ISD not to discriminate 
+            on the basis of sex, disability, race, religion, color, gender, age, or national origin in its educational programs.</blockquote>
+            <i>- Official CRJH Website</i>
+        </section>
+        <footer>
+            <p>The <strong>CRJH</strong> logo was taken from <cite>https://www.katyisd.org/campus/CRJH/Documents/Forms/AllItems.aspx?Paged=TRUE&p%255FSortBehavior=0&p%255FFileLeafRef=Recovering%20Emotionally%20from%20Disaster%2Epdf&p%255FID=28&SortField=Editor%2CEditor%2CEditor%2CEditor&SortDir=Desc%2CDesc&PageFirstRow=61&View=%7B7583FE7D%2D4B11%2D4F7F%2D8A28%2D1E11468BCD1B%7D</cite>.</p>
+            <p>The <strong>Flash</strong> logo was taken from <cite>https://www.cleanpng.com/png-adobe-flash-player-logo-computer-icons-animation-2100248/</cite>.</p>
+            <p>The checklist icon was taken from <cite>https://www.rcoe.us/personnel-services/checklist-icon-200/</cite>.</p>
+        </footer>
+        <div class="scripts">
+            <script src="crjh_blog.js"></script>
+            <script src="app.js"></script>
+        </div>
+    </body>
+</html>
