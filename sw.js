@@ -9,7 +9,7 @@ self.addEventListener('install', eventVar=>{
 self.addEventListener('fetch', eventVar=>{
     eventVar.respondWith(
         caches.match(eventVar.request).then(response=>{
-            return response||fetch(eventVar.request);
+            return response;
         })
     );
 });
